@@ -1,0 +1,82 @@
+{
+  "backlinks": {
+    "a": [
+      "b"
+    ],
+    "b": [
+      "a"
+    ]
+  },
+  "broken": [
+    {
+      "line": 6,
+      "reason": "missing",
+      "source": "a",
+      "target": "nope"
+    }
+  ],
+  "edges": [
+    {
+      "label": null,
+      "source": "a",
+      "target": "b"
+    },
+    {
+      "label": null,
+      "source": "b",
+      "target": "a"
+    }
+  ],
+  "nodes": [
+    {
+      "aliases": [],
+      "frontmatter": {
+        "date": "2026-11-05",
+        "tags": [
+          "Demo"
+        ],
+        "title": "Alpha"
+      },
+      "id": "a",
+      "links": [
+        {
+          "heading": null,
+          "label": null,
+          "line": 6,
+          "target": "b"
+        },
+        {
+          "heading": null,
+          "label": null,
+          "line": 6,
+          "target": "nope"
+        }
+      ],
+      "path": "a.md",
+      "tags": [
+        "demo"
+      ],
+      "title": "Alpha"
+    },
+    {
+      "aliases": [],
+      "frontmatter": {},
+      "id": "b",
+      "links": [
+        {
+          "heading": null,
+          "label": null,
+          "line": 2,
+          "target": "a"
+        }
+      ],
+      "path": "b.md",
+      "tags": [
+        "x"
+      ],
+      "title": "Beta"
+    }
+  ],
+  "orphans": [],
+  "version": 1
+}
