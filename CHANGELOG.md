@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Added `md_knowledge_graph`: parse Markdown notes with YAML frontmatter and wiki links, build a byte-deterministic JSON graph and `INDEX.md`, report broken links and orphans, with a CI-friendly `md-knowledge-graph` CLI (`--strict`, `--check`).
 - Initial project structure from the factory utility template.
