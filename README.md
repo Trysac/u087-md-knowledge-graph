@@ -1,7 +1,6 @@
 # md-knowledge-graph
 
-[![PyPI version](https://img.shields.io/pypi/v/trysac-md-knowledge-graph)](https://pypi.org/project/trysac-md-knowledge-graph/)
-[![License: MIT](https://img.shields.io/pypi/l/trysac-md-knowledge-graph)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/Trysac/u087-md-knowledge-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/Trysac/u087-md-knowledge-graph/actions/workflows/ci.yml)
 
 Build an INDEX.md and a JSON graph from Markdown notes with YAML frontmatter and wiki links, reporting broken links and orphans.
@@ -12,10 +11,12 @@ Folders of Markdown notes with frontmatter and wiki-style links become hard to n
 
 ## Install
 
+Not published to PyPI yet. Install it from GitHub:
+
 ```sh
-pip install trysac-md-knowledge-graph
+pip install "git+https://github.com/Trysac/u087-md-knowledge-graph"
 # or
-uv add trysac-md-knowledge-graph
+uv add "git+https://github.com/Trysac/u087-md-knowledge-graph"
 ```
 
 Requires Python 3.10 or newer. The only runtime dependency is PyYAML (>=6.0,<7).
